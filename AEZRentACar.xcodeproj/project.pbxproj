@@ -1,0 +1,1310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1620EBFC1F1671F20086FC6B /* DatePickerCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620EBF91F1671F20086FC6B /* DatePickerCustomSegue.swift */; };
+		1620EBFD1F1671F20086FC6B /* DatePickerDismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620EBFA1F1671F20086FC6B /* DatePickerDismissSegue.swift */; };
+		1620EBFE1F1671F20086FC6B /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620EBFB1F1671F20086FC6B /* DatePickerViewController.swift */; };
+		1620EC001F17544C0086FC6B /* ReservationSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1620EBFF1F17544C0086FC6B /* ReservationSummaryCell.swift */; };
+		1635E57E1F273E1E00C799AA /* EditProfileMyDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E5791F273E1E00C799AA /* EditProfileMyDetailsTableViewCell.swift */; };
+		1635E57F1F273E1E00C799AA /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E57A1F273E1E00C799AA /* LoginTableViewCell.swift */; };
+		1635E5801F273E1E00C799AA /* PaymentDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E57B1F273E1E00C799AA /* PaymentDetailsTableViewCell.swift */; };
+		1635E5821F273E1E00C799AA /* ReserveCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E57D1F273E1E00C799AA /* ReserveCarViewController.swift */; };
+		1635E5871F273E5D00C799AA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E5841F273E5D00C799AA /* WebViewController.swift */; };
+		1635E5881F273E5D00C799AA /* WebViewDismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E5851F273E5D00C799AA /* WebViewDismissSegue.swift */; };
+		1635E5891F273E5D00C799AA /* WebViewPresentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E5861F273E5D00C799AA /* WebViewPresentSegue.swift */; };
+		1635E58B1F273E6600C799AA /* BillingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E58A1F273E6600C799AA /* BillingDetails.swift */; };
+		1635E5911F273E8800C799AA /* RequestBillServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E5901F273E8800C799AA /* RequestBillServiceController.swift */; };
+		1651F2891F0F5F8700C9840D /* AEZCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2471F0F5F8700C9840D /* AEZCar.swift */; };
+		1651F28A1F0F5F8700C9840D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2481F0F5F8700C9840D /* Country.swift */; };
+		1651F28B1F0F5F8700C9840D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2491F0F5F8700C9840D /* Location.swift */; };
+		1651F28C1F0F5F8700C9840D /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F24A1F0F5F8700C9840D /* LocationDetails.swift */; };
+		1651F28D1F0F5F8700C9840D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F24B1F0F5F8700C9840D /* Login.swift */; };
+		1651F28E1F0F5F8700C9840D /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F24C1F0F5F8700C9840D /* Reservation.swift */; };
+		1651F28F1F0F5F8700C9840D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F24D1F0F5F8700C9840D /* User.swift */; };
+		1651F2901F0F5F8700C9840D /* UserLoyaltyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F24E1F0F5F8700C9840D /* UserLoyaltyProfile.swift */; };
+		1651F2911F0F5F8700C9840D /* USState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F24F1F0F5F8700C9840D /* USState.swift */; };
+		1651F2921F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2521F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser.swift */; };
+		1651F2941F0F5F8700C9840D /* GetPolicyServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2561F0F5F8700C9840D /* GetPolicyServiceResponseParser.swift */; };
+		1651F2951F0F5F8700C9840D /* GetRatesServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2581F0F5F8700C9840D /* GetRatesServiceResponseParser.swift */; };
+		1651F2961F0F5F8700C9840D /* GetUSStatesServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F25A1F0F5F8700C9840D /* GetUSStatesServiceResponseParser.swift */; };
+		1651F2971F0F5F8700C9840D /* LoginServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F25C1F0F5F8700C9840D /* LoginServiceResponseParser.swift */; };
+		1651F2981F0F5F8700C9840D /* LogoutServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F25E1F0F5F8700C9840D /* LogoutServiceResponseParser.swift */; };
+		1651F2991F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2601F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser.swift */; };
+		1651F29A1F0F5F8700C9840D /* SearchLocationServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2631F0F5F8700C9840D /* SearchLocationServiceResponseParser.swift */; };
+		1651F29B1F0F5F8700C9840D /* UserServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2651F0F5F8700C9840D /* UserServiceResponseParser.swift */; };
+		1651F29C1F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F26A1F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController.swift */; };
+		1651F29E1F0F5F8700C9840D /* GetPolicyServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F26E1F0F5F8700C9840D /* GetPolicyServiceController.swift */; };
+		1651F29F1F0F5F8700C9840D /* GetRatesServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2701F0F5F8700C9840D /* GetRatesServiceController.swift */; };
+		1651F2A01F0F5F8700C9840D /* LoginServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2731F0F5F8700C9840D /* LoginServiceController.swift */; };
+		1651F2A11F0F5F8700C9840D /* LogoutServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2751F0F5F8700C9840D /* LogoutServiceController.swift */; };
+		1651F2A21F0F5F8700C9840D /* LoyaltyProfileServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2771F0F5F8700C9840D /* LoyaltyProfileServiceController.swift */; };
+		1651F2A31F0F5F8700C9840D /* SearchLocationServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2791F0F5F8700C9840D /* SearchLocationServiceController.swift */; };
+		1651F2A41F0F5F8700C9840D /* UserServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F27B1F0F5F8700C9840D /* UserServiceController.swift */; };
+		1651F2A51F0F5F8700C9840D /* ChooseACarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F27E1F0F5F8700C9840D /* ChooseACarTableViewCell.swift */; };
+		1651F2A61F0F5F8700C9840D /* ChooseACarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F27F1F0F5F8700C9840D /* ChooseACarViewController.swift */; };
+		1651F2A71F0F5F8700C9840D /* FindACarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2811F0F5F8700C9840D /* FindACarHeaderView.swift */; };
+		1651F2A81F0F5F8700C9840D /* FindACarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2821F0F5F8700C9840D /* FindACarViewController.swift */; };
+		1651F2A91F0F5F8700C9840D /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2841F0F5F8700C9840D /* LocationSearchResultsViewController.swift */; };
+		1651F2AA1F0F5F8700C9840D /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2861F0F5F8700C9840D /* AlertManager.swift */; };
+		1651F2AB1F0F5F8700C9840D /* UITextFieldAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2871F0F5F8700C9840D /* UITextFieldAdditions.swift */; };
+		1651F2AC1F0F5F8700C9840D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2881F0F5F8700C9840D /* Utilities.swift */; };
+		1651F2AE1F0F60E500C9840D /* GetUSStatesServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2AD1F0F60E500C9840D /* GetUSStatesServiceController.swift */; };
+		1651F2B01F0F610800C9840D /* GetCountriesServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2AF1F0F610800C9840D /* GetCountriesServiceController.swift */; };
+		1651F2B31F0F614200C9840D /* GetCountriesServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2B21F0F614200C9840D /* GetCountriesServiceResponseParser.swift */; };
+		1651F2B61F0F623700C9840D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2B51F0F623700C9840D /* SplashViewController.swift */; };
+		1651F2BB1F0F626200C9840D /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1651F2B81F0F626200C9840D /* Default-568h.png */; };
+		1651F2BC1F0F626200C9840D /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1651F2B91F0F626200C9840D /* Default-667h.png */; };
+		1651F2BD1F0F626200C9840D /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1651F2BA1F0F626200C9840D /* Default-736h.png */; };
+		1662306F1F8F5818000D6A7E /* PaymentBreakupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662306E1F8F5818000D6A7E /* PaymentBreakupViewController.swift */; };
+		166230711F8F5964000D6A7E /* PaymentBreakupPresentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166230701F8F5964000D6A7E /* PaymentBreakupPresentSegue.swift */; };
+		166230731F8F5976000D6A7E /* PaymentBreakupDismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166230721F8F5976000D6A7E /* PaymentBreakupDismissSegue.swift */; };
+		166EBAF91F386C59005D2B53 /* termsAndCondition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 166EBAF81F386C59005D2B53 /* termsAndCondition.txt */; };
+		167AC3291F41749D0097C169 /* AEZDataAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167AC3281F41749D0097C169 /* AEZDataAdditions.swift */; };
+		167F20C91F29BB2100F652B8 /* ReservationConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F20C81F29BB2100F652B8 /* ReservationConfirmationViewController.swift */; };
+		167F20CC1F2B129800F652B8 /* AddReservationServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F20CB1F2B129800F652B8 /* AddReservationServiceController.swift */; };
+		167F20CF1F2B12B300F652B8 /* AddReservationResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F20CE1F2B12B300F652B8 /* AddReservationResponseParser.swift */; };
+		1686C22E1F3C5BBC006B9D16 /* ServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686C22D1F3C5BBC006B9D16 /* ServiceConstants.swift */; };
+		16AC0C111F2F159000B6AEF1 /* LogoutFunctionalityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AC0C101F2F159000B6AEF1 /* LogoutFunctionalityViewController.swift */; };
+		16B296931F30A4AD002CE989 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B296921F30A4AC002CE989 /* PaymentViewController.swift */; };
+		16CA2F6A1F3D9C690058486D /* PreReservationResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA2F691F3D9C690058486D /* PreReservationResponseParser.swift */; };
+		16CA2F6C1F3D9CC90058486D /* PreReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA2F6B1F3D9CC90058486D /* PreReservation.swift */; };
+		336627F9F07AD4D08F0D0CA8 /* Pods_EZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228A690878F5958303BABCD8 /* Pods_EZ.framework */; };
+		7532ED8C3BC494B8153A0E8E /* Pods_Advantage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6005FE08EB962CCD779EAE59 /* Pods_Advantage.framework */; };
+		D950AE161F04EB4C0058F678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950AE011F04EB340058F678 /* AppDelegate.swift */; };
+		D950AE1A1F04EB4C0058F678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D950AE081F04EB340058F678 /* Assets.xcassets */; };
+		D950AE1B1F04EB4C0058F678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D950AE051F04EB340058F678 /* Main.storyboard */; };
+		D950AE241F04EB620058F678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950AE011F04EB340058F678 /* AppDelegate.swift */; };
+		D950AE281F04EB620058F678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D950AE081F04EB340058F678 /* Assets.xcassets */; };
+		D950AE291F04EB620058F678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D950AE051F04EB340058F678 /* Main.storyboard */; };
+		D950AE581F08E3480058F678 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE461F08E3480058F678 /* Montserrat-Black.ttf */; };
+		D950AE591F08E3480058F678 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE471F08E3480058F678 /* Montserrat-BlackItalic.ttf */; };
+		D950AE5A1F08E3480058F678 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE481F08E3480058F678 /* Montserrat-Bold.ttf */; };
+		D950AE5B1F08E3480058F678 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE491F08E3480058F678 /* Montserrat-BoldItalic.ttf */; };
+		D950AE5C1F08E3480058F678 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE4A1F08E3480058F678 /* Montserrat-ExtraBold.ttf */; };
+		D950AE5D1F08E3480058F678 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE4B1F08E3480058F678 /* Montserrat-ExtraBoldItalic.ttf */; };
+		D950AE5E1F08E3480058F678 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE4C1F08E3480058F678 /* Montserrat-ExtraLight.ttf */; };
+		D950AE5F1F08E3480058F678 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE4D1F08E3480058F678 /* Montserrat-ExtraLightItalic.ttf */; };
+		D950AE601F08E3480058F678 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE4E1F08E3480058F678 /* Montserrat-Italic.ttf */; };
+		D950AE611F08E3480058F678 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE4F1F08E3480058F678 /* Montserrat-Light.ttf */; };
+		D950AE621F08E3480058F678 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE501F08E3480058F678 /* Montserrat-LightItalic.ttf */; };
+		D950AE631F08E3480058F678 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE511F08E3480058F678 /* Montserrat-Medium.ttf */; };
+		D950AE641F08E3480058F678 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE521F08E3480058F678 /* Montserrat-MediumItalic.ttf */; };
+		D950AE651F08E3480058F678 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE531F08E3480058F678 /* Montserrat-Regular.ttf */; };
+		D950AE661F08E3480058F678 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE541F08E3480058F678 /* Montserrat-SemiBold.ttf */; };
+		D950AE671F08E3480058F678 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE551F08E3480058F678 /* Montserrat-SemiBoldItalic.ttf */; };
+		D950AE681F08E3480058F678 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE561F08E3480058F678 /* Montserrat-Thin.ttf */; };
+		D950AE691F08E3480058F678 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D950AE571F08E3480058F678 /* Montserrat-ThinItalic.ttf */; };
+		D950AE971F08E53B0058F678 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950AE961F08E53B0058F678 /* DataManager.swift */; };
+		FA1B9FD120E2399C00AF2E58 /* ViewReservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B9FD020E2399C00AF2E58 /* ViewReservationsViewController.swift */; };
+		FA1B9FD320E26F6400AF2E58 /* MyReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B9FD220E26F6400AF2E58 /* MyReservationViewController.swift */; };
+		FA1B9FD620E4BCCD00AF2E58 /* ViewReservationServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B9FD520E4BCCD00AF2E58 /* ViewReservationServiceController.swift */; };
+		FA1B9FD920E4CBA600AF2E58 /* ViewReservationResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B9FD820E4CBA600AF2E58 /* ViewReservationResponseParser.swift */; };
+		FA1B9FDB20E4CE4700AF2E58 /* ViewReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B9FDA20E4CE4700AF2E58 /* ViewReservation.swift */; };
+		FA40C37B20DA7B5E00A4623D /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40C37A20DA7B5E00A4623D /* SlideMenuViewController.swift */; };
+		FA40C37D20DB830500A4623D /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40C37C20DB830500A4623D /* SlideMenu.swift */; };
+		FA40C37F20DB9E8700A4623D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40C37E20DB9E8700A4623D /* LoginViewController.swift */; };
+		FA40C38120DCC9F400A4623D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40C38020DCC9F400A4623D /* ForgotPasswordViewController.swift */; };
+		FA40C38320DCFE5C00A4623D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40C38220DCFE5B00A4623D /* NetworkManager.swift */; };
+		FA4E13172109CFFE0078ED11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E13162109CFFE0078ED11 /* Constants.swift */; };
+		FAB567A520D388DC00B1BB62 /* RequestBillServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB567A420D388DC00B1BB62 /* RequestBillServiceResponseParser.swift */; };
+		FAB567A620D388DC00B1BB62 /* RequestBillServiceResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB567A420D388DC00B1BB62 /* RequestBillServiceResponseParser.swift */; };
+		FABE28C220F75207000A30BB /* BillingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1635E58A1F273E6600C799AA /* BillingDetails.swift */; };
+		FABE28C320F75223000A30BB /* AEZCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651F2471F0F5F8700C9840D /* AEZCar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2707A3D5DD1C8AE52BC76E /* Pods-Advantage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advantage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Advantage/Pods-Advantage.release.xcconfig"; sourceTree = "<group>"; };
+		1620EBF91F1671F20086FC6B /* DatePickerCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCustomSegue.swift; sourceTree = "<group>"; };
+		1620EBFA1F1671F20086FC6B /* DatePickerDismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDismissSegue.swift; sourceTree = "<group>"; };
+		1620EBFB1F1671F20086FC6B /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		1620EBFF1F17544C0086FC6B /* ReservationSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationSummaryCell.swift; sourceTree = "<group>"; };
+		1635E5791F273E1E00C799AA /* EditProfileMyDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileMyDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		1635E57A1F273E1E00C799AA /* LoginTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		1635E57B1F273E1E00C799AA /* PaymentDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		1635E57D1F273E1E00C799AA /* ReserveCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReserveCarViewController.swift; sourceTree = "<group>"; };
+		1635E5841F273E5D00C799AA /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		1635E5851F273E5D00C799AA /* WebViewDismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewDismissSegue.swift; sourceTree = "<group>"; };
+		1635E5861F273E5D00C799AA /* WebViewPresentSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewPresentSegue.swift; sourceTree = "<group>"; };
+		1635E58A1F273E6600C799AA /* BillingDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillingDetails.swift; sourceTree = "<group>"; };
+		1635E5901F273E8800C799AA /* RequestBillServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBillServiceController.swift; sourceTree = "<group>"; };
+		1651F2471F0F5F8700C9840D /* AEZCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEZCar.swift; sourceTree = "<group>"; };
+		1651F2481F0F5F8700C9840D /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1651F2491F0F5F8700C9840D /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1651F24A1F0F5F8700C9840D /* LocationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		1651F24B1F0F5F8700C9840D /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1651F24C1F0F5F8700C9840D /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		1651F24D1F0F5F8700C9840D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1651F24E1F0F5F8700C9840D /* UserLoyaltyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoyaltyProfile.swift; sourceTree = "<group>"; };
+		1651F24F1F0F5F8700C9840D /* USState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USState.swift; sourceTree = "<group>"; };
+		1651F2521F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFormattedTermsAndConditionsServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F2561F0F5F8700C9840D /* GetPolicyServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPolicyServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F2581F0F5F8700C9840D /* GetRatesServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRatesServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F25A1F0F5F8700C9840D /* GetUSStatesServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUSStatesServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F25C1F0F5F8700C9840D /* LoginServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F25E1F0F5F8700C9840D /* LogoutServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F2601F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyProfileServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F2631F0F5F8700C9840D /* SearchLocationServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLocationServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F2651F0F5F8700C9840D /* UserServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F26A1F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFormattedTermsAndConditionsServiceController.swift; sourceTree = "<group>"; };
+		1651F26E1F0F5F8700C9840D /* GetPolicyServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPolicyServiceController.swift; sourceTree = "<group>"; };
+		1651F2701F0F5F8700C9840D /* GetRatesServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRatesServiceController.swift; sourceTree = "<group>"; };
+		1651F2731F0F5F8700C9840D /* LoginServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginServiceController.swift; sourceTree = "<group>"; };
+		1651F2751F0F5F8700C9840D /* LogoutServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutServiceController.swift; sourceTree = "<group>"; };
+		1651F2771F0F5F8700C9840D /* LoyaltyProfileServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyProfileServiceController.swift; sourceTree = "<group>"; };
+		1651F2791F0F5F8700C9840D /* SearchLocationServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLocationServiceController.swift; sourceTree = "<group>"; };
+		1651F27B1F0F5F8700C9840D /* UserServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceController.swift; sourceTree = "<group>"; };
+		1651F27E1F0F5F8700C9840D /* ChooseACarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseACarTableViewCell.swift; sourceTree = "<group>"; };
+		1651F27F1F0F5F8700C9840D /* ChooseACarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseACarViewController.swift; sourceTree = "<group>"; };
+		1651F2811F0F5F8700C9840D /* FindACarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindACarHeaderView.swift; sourceTree = "<group>"; };
+		1651F2821F0F5F8700C9840D /* FindACarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindACarViewController.swift; sourceTree = "<group>"; };
+		1651F2841F0F5F8700C9840D /* LocationSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsViewController.swift; sourceTree = "<group>"; };
+		1651F2861F0F5F8700C9840D /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		1651F2871F0F5F8700C9840D /* UITextFieldAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldAdditions.swift; sourceTree = "<group>"; };
+		1651F2881F0F5F8700C9840D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1651F2AD1F0F60E500C9840D /* GetUSStatesServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUSStatesServiceController.swift; sourceTree = "<group>"; };
+		1651F2AF1F0F610800C9840D /* GetCountriesServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCountriesServiceController.swift; sourceTree = "<group>"; };
+		1651F2B21F0F614200C9840D /* GetCountriesServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCountriesServiceResponseParser.swift; sourceTree = "<group>"; };
+		1651F2B51F0F623700C9840D /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1651F2B81F0F626200C9840D /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		1651F2B91F0F626200C9840D /* Default-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h.png"; sourceTree = "<group>"; };
+		1651F2BA1F0F626200C9840D /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h.png"; sourceTree = "<group>"; };
+		1662306E1F8F5818000D6A7E /* PaymentBreakupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentBreakupViewController.swift; sourceTree = "<group>"; };
+		166230701F8F5964000D6A7E /* PaymentBreakupPresentSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentBreakupPresentSegue.swift; sourceTree = "<group>"; };
+		166230721F8F5976000D6A7E /* PaymentBreakupDismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentBreakupDismissSegue.swift; sourceTree = "<group>"; };
+		166EBAF81F386C59005D2B53 /* termsAndCondition.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = termsAndCondition.txt; sourceTree = "<group>"; };
+		167AC3281F41749D0097C169 /* AEZDataAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEZDataAdditions.swift; sourceTree = "<group>"; };
+		167F20C81F29BB2100F652B8 /* ReservationConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationConfirmationViewController.swift; sourceTree = "<group>"; };
+		167F20CB1F2B129800F652B8 /* AddReservationServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReservationServiceController.swift; sourceTree = "<group>"; };
+		167F20CE1F2B12B300F652B8 /* AddReservationResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReservationResponseParser.swift; sourceTree = "<group>"; };
+		1686C22D1F3C5BBC006B9D16 /* ServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConstants.swift; sourceTree = "<group>"; };
+		16AC0C101F2F159000B6AEF1 /* LogoutFunctionalityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutFunctionalityViewController.swift; sourceTree = "<group>"; };
+		16B296921F30A4AC002CE989 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		16CA2F691F3D9C690058486D /* PreReservationResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreReservationResponseParser.swift; sourceTree = "<group>"; };
+		16CA2F6B1F3D9CC90058486D /* PreReservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreReservation.swift; sourceTree = "<group>"; };
+		228A690878F5958303BABCD8 /* Pods_EZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C20927C12F588A88D7551B9 /* Pods-EZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZ/Pods-EZ.debug.xcconfig"; sourceTree = "<group>"; };
+		6005FE08EB962CCD779EAE59 /* Pods_Advantage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Advantage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC867B6EE694468477FD4519 /* Pods-EZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZ.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZ/Pods-EZ.release.xcconfig"; sourceTree = "<group>"; };
+		D950AE011F04EB340058F678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D950AE061F04EB340058F678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D950AE081F04EB340058F678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D950AE0D1F04EB340058F678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D950AE1F1F04EB4C0058F678 /* Advantage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advantage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D950AE2D1F04EB620058F678 /* EZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D950AE461F08E3480058F678 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "Fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		D950AE471F08E3480058F678 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BlackItalic.ttf"; path = "Fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D950AE481F08E3480058F678 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "Fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		D950AE491F08E3480058F678 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.ttf"; path = "Fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D950AE4A1F08E3480058F678 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "Fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D950AE4B1F08E3480058F678 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBoldItalic.ttf"; path = "Fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D950AE4C1F08E3480058F678 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLight.ttf"; path = "Fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D950AE4D1F08E3480058F678 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLightItalic.ttf"; path = "Fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D950AE4E1F08E3480058F678 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.ttf"; path = "Fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		D950AE4F1F08E3480058F678 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "Fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		D950AE501F08E3480058F678 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-LightItalic.ttf"; path = "Fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		D950AE511F08E3480058F678 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "Fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		D950AE521F08E3480058F678 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-MediumItalic.ttf"; path = "Fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D950AE531F08E3480058F678 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "Fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D950AE541F08E3480058F678 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "Fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		D950AE551F08E3480058F678 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.ttf"; path = "Fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D950AE561F08E3480058F678 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.ttf"; path = "Fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		D950AE571F08E3480058F678 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ThinItalic.ttf"; path = "Fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D950AE961F08E53B0058F678 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Managers/DataManagers/DataManager.swift; sourceTree = "<group>"; };
+		F90CE79BA250AC48ABA98AFA /* Pods-Advantage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Advantage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Advantage/Pods-Advantage.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1B9FD020E2399C00AF2E58 /* ViewReservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReservationsViewController.swift; sourceTree = "<group>"; };
+		FA1B9FD220E26F6400AF2E58 /* MyReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationViewController.swift; sourceTree = "<group>"; };
+		FA1B9FD520E4BCCD00AF2E58 /* ViewReservationServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReservationServiceController.swift; sourceTree = "<group>"; };
+		FA1B9FD820E4CBA600AF2E58 /* ViewReservationResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReservationResponseParser.swift; sourceTree = "<group>"; };
+		FA1B9FDA20E4CE4700AF2E58 /* ViewReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReservation.swift; sourceTree = "<group>"; };
+		FA40C37A20DA7B5E00A4623D /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		FA40C37C20DB830500A4623D /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		FA40C37E20DB9E8700A4623D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA40C38020DCC9F400A4623D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		FA40C38220DCFE5B00A4623D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA4E13162109CFFE0078ED11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FAB567A420D388DC00B1BB62 /* RequestBillServiceResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBillServiceResponseParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D950AE171F04EB4C0058F678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7532ED8C3BC494B8153A0E8E /* Pods_Advantage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D950AE251F04EB620058F678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336627F9F07AD4D08F0D0CA8 /* Pods_EZ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1620EBF81F1671F20086FC6B /* DatePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1620EBF91F1671F20086FC6B /* DatePickerCustomSegue.swift */,
+				1620EBFA1F1671F20086FC6B /* DatePickerDismissSegue.swift */,
+				1620EBFB1F1671F20086FC6B /* DatePickerViewController.swift */,
+			);
+			path = DatePickerViewController;
+			sourceTree = "<group>";
+		};
+		1635E5781F273E1E00C799AA /* ReserveCarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1635E57D1F273E1E00C799AA /* ReserveCarViewController.swift */,
+				1635E5791F273E1E00C799AA /* EditProfileMyDetailsTableViewCell.swift */,
+				1635E57A1F273E1E00C799AA /* LoginTableViewCell.swift */,
+				1635E57B1F273E1E00C799AA /* PaymentDetailsTableViewCell.swift */,
+			);
+			path = ReserveCarViewController;
+			sourceTree = "<group>";
+		};
+		1635E5831F273E5D00C799AA /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1635E5841F273E5D00C799AA /* WebViewController.swift */,
+				1635E5851F273E5D00C799AA /* WebViewDismissSegue.swift */,
+				1635E5861F273E5D00C799AA /* WebViewPresentSegue.swift */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		1635E58F1F273E8800C799AA /* RequestBillServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1635E5901F273E8800C799AA /* RequestBillServiceController.swift */,
+			);
+			path = RequestBillServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2461F0F5F8700C9840D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1635E58A1F273E6600C799AA /* BillingDetails.swift */,
+				1651F2471F0F5F8700C9840D /* AEZCar.swift */,
+				1651F2481F0F5F8700C9840D /* Country.swift */,
+				1651F2491F0F5F8700C9840D /* Location.swift */,
+				1651F24A1F0F5F8700C9840D /* LocationDetails.swift */,
+				1651F24B1F0F5F8700C9840D /* Login.swift */,
+				1651F24C1F0F5F8700C9840D /* Reservation.swift */,
+				1651F24D1F0F5F8700C9840D /* User.swift */,
+				1651F24E1F0F5F8700C9840D /* UserLoyaltyProfile.swift */,
+				1651F24F1F0F5F8700C9840D /* USState.swift */,
+				16CA2F6B1F3D9CC90058486D /* PreReservation.swift */,
+				FA40C37C20DB830500A4623D /* SlideMenu.swift */,
+				FA1B9FDA20E4CE4700AF2E58 /* ViewReservation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1651F2501F0F5F8700C9840D /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B9FD720E4CA7B00AF2E58 /* ViewReservationParser */,
+				FAB567A420D388DC00B1BB62 /* RequestBillServiceResponseParser.swift */,
+				16CA2F681F3D9C530058486D /* PreReservationResponseParser */,
+				167F20CD1F2B12B300F652B8 /* AddReservationResponseParser */,
+				1651F2B11F0F614200C9840D /* GetCountriesServiceResponseParser */,
+				1651F2511F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser */,
+				1651F2551F0F5F8700C9840D /* GetPolicyServiceResponseParser */,
+				1651F2571F0F5F8700C9840D /* GetRatesServiceResponseParser */,
+				1651F2591F0F5F8700C9840D /* GetUSStatesServiceResponseParser */,
+				1651F25B1F0F5F8700C9840D /* LoginServiceResponseParser */,
+				1651F25D1F0F5F8700C9840D /* LogoutServiceResponseParser */,
+				1651F25F1F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser */,
+				1651F2621F0F5F8700C9840D /* SearchLocationServiceResponseParser */,
+				1651F2641F0F5F8700C9840D /* UserServiceResponseParser */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		1651F2511F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2521F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser.swift */,
+			);
+			path = GetFormattedTermsAndConditionsServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2551F0F5F8700C9840D /* GetPolicyServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2561F0F5F8700C9840D /* GetPolicyServiceResponseParser.swift */,
+			);
+			path = GetPolicyServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2571F0F5F8700C9840D /* GetRatesServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2581F0F5F8700C9840D /* GetRatesServiceResponseParser.swift */,
+			);
+			path = GetRatesServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2591F0F5F8700C9840D /* GetUSStatesServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F25A1F0F5F8700C9840D /* GetUSStatesServiceResponseParser.swift */,
+			);
+			path = GetUSStatesServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F25B1F0F5F8700C9840D /* LoginServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F25C1F0F5F8700C9840D /* LoginServiceResponseParser.swift */,
+			);
+			path = LoginServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F25D1F0F5F8700C9840D /* LogoutServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F25E1F0F5F8700C9840D /* LogoutServiceResponseParser.swift */,
+			);
+			path = LogoutServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F25F1F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2601F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser.swift */,
+			);
+			path = LoyaltyProfileServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2621F0F5F8700C9840D /* SearchLocationServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2631F0F5F8700C9840D /* SearchLocationServiceResponseParser.swift */,
+			);
+			path = SearchLocationServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2641F0F5F8700C9840D /* UserServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2651F0F5F8700C9840D /* UserServiceResponseParser.swift */,
+			);
+			path = UserServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2661F0F5F8700C9840D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2671F0F5F8700C9840D /* ServiceControllers */,
+				1651F27C1F0F5F8700C9840D /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1651F2671F0F5F8700C9840D /* ServiceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B9FD420E4BC9C00AF2E58 /* ViewReservation */,
+				167F20CA1F2B129800F652B8 /* AddReservationServiceController */,
+				1635E58F1F273E8800C799AA /* RequestBillServiceController */,
+				1651F2681F0F5F8700C9840D /* GetCountriesServiceController */,
+				1651F2691F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController */,
+				1651F26D1F0F5F8700C9840D /* GetPolicyServiceController */,
+				1651F26F1F0F5F8700C9840D /* GetRatesServiceController */,
+				1651F2711F0F5F8700C9840D /* GetUSStatesServiceController */,
+				1651F2721F0F5F8700C9840D /* LoginServiceController */,
+				1651F2741F0F5F8700C9840D /* LogoutServiceController */,
+				1651F2761F0F5F8700C9840D /* LoyaltyProfileServiceController */,
+				1651F2781F0F5F8700C9840D /* SearchLocationServiceController */,
+				1651F27A1F0F5F8700C9840D /* UserServiceController */,
+			);
+			path = ServiceControllers;
+			sourceTree = "<group>";
+		};
+		1651F2681F0F5F8700C9840D /* GetCountriesServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2AF1F0F610800C9840D /* GetCountriesServiceController.swift */,
+			);
+			path = GetCountriesServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2691F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F26A1F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController.swift */,
+			);
+			path = GetFormattedTermsAndConditionsServiceController;
+			sourceTree = "<group>";
+		};
+		1651F26D1F0F5F8700C9840D /* GetPolicyServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F26E1F0F5F8700C9840D /* GetPolicyServiceController.swift */,
+			);
+			path = GetPolicyServiceController;
+			sourceTree = "<group>";
+		};
+		1651F26F1F0F5F8700C9840D /* GetRatesServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2701F0F5F8700C9840D /* GetRatesServiceController.swift */,
+			);
+			path = GetRatesServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2711F0F5F8700C9840D /* GetUSStatesServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2AD1F0F60E500C9840D /* GetUSStatesServiceController.swift */,
+			);
+			path = GetUSStatesServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2721F0F5F8700C9840D /* LoginServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2731F0F5F8700C9840D /* LoginServiceController.swift */,
+			);
+			path = LoginServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2741F0F5F8700C9840D /* LogoutServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2751F0F5F8700C9840D /* LogoutServiceController.swift */,
+			);
+			path = LogoutServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2761F0F5F8700C9840D /* LoyaltyProfileServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2771F0F5F8700C9840D /* LoyaltyProfileServiceController.swift */,
+			);
+			path = LoyaltyProfileServiceController;
+			sourceTree = "<group>";
+		};
+		1651F2781F0F5F8700C9840D /* SearchLocationServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2791F0F5F8700C9840D /* SearchLocationServiceController.swift */,
+			);
+			path = SearchLocationServiceController;
+			sourceTree = "<group>";
+		};
+		1651F27A1F0F5F8700C9840D /* UserServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F27B1F0F5F8700C9840D /* UserServiceController.swift */,
+			);
+			path = UserServiceController;
+			sourceTree = "<group>";
+		};
+		1651F27C1F0F5F8700C9840D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1662306D1F8F57FC000D6A7E /* PaymentBreakupViewController */,
+				1635E5831F273E5D00C799AA /* WebViewController */,
+				167F20C71F29BB2100F652B8 /* ReservationConfirmationViewController */,
+				16B296911F30A49E002CE989 /* PaymentViewController */,
+				1635E5781F273E1E00C799AA /* ReserveCarViewController */,
+				1620EBF81F1671F20086FC6B /* DatePickerViewController */,
+				1651F2B41F0F623700C9840D /* SplashViewController */,
+				1651F27D1F0F5F8700C9840D /* ChooseACarViewController */,
+				1651F2801F0F5F8700C9840D /* FindACarViewController */,
+				1651F2831F0F5F8700C9840D /* SearchLocationViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1651F27D1F0F5F8700C9840D /* ChooseACarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F27F1F0F5F8700C9840D /* ChooseACarViewController.swift */,
+				1651F27E1F0F5F8700C9840D /* ChooseACarTableViewCell.swift */,
+				1620EBFF1F17544C0086FC6B /* ReservationSummaryCell.swift */,
+				16AC0C101F2F159000B6AEF1 /* LogoutFunctionalityViewController.swift */,
+			);
+			path = ChooseACarViewController;
+			sourceTree = "<group>";
+		};
+		1651F2801F0F5F8700C9840D /* FindACarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2811F0F5F8700C9840D /* FindACarHeaderView.swift */,
+				1651F2821F0F5F8700C9840D /* FindACarViewController.swift */,
+			);
+			path = FindACarViewController;
+			sourceTree = "<group>";
+		};
+		1651F2831F0F5F8700C9840D /* SearchLocationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2841F0F5F8700C9840D /* LocationSearchResultsViewController.swift */,
+			);
+			path = SearchLocationViewController;
+			sourceTree = "<group>";
+		};
+		1651F2851F0F5F8700C9840D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2861F0F5F8700C9840D /* AlertManager.swift */,
+				1651F2871F0F5F8700C9840D /* UITextFieldAdditions.swift */,
+				1651F2881F0F5F8700C9840D /* Utilities.swift */,
+				1686C22D1F3C5BBC006B9D16 /* ServiceConstants.swift */,
+				FA4E13162109CFFE0078ED11 /* Constants.swift */,
+				167AC3281F41749D0097C169 /* AEZDataAdditions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1651F2B11F0F614200C9840D /* GetCountriesServiceResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2B21F0F614200C9840D /* GetCountriesServiceResponseParser.swift */,
+			);
+			path = GetCountriesServiceResponseParser;
+			sourceTree = "<group>";
+		};
+		1651F2B41F0F623700C9840D /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2B51F0F623700C9840D /* SplashViewController.swift */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		1651F2B71F0F626200C9840D /* LaunchImages */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2B81F0F626200C9840D /* Default-568h.png */,
+				1651F2B91F0F626200C9840D /* Default-667h.png */,
+				1651F2BA1F0F626200C9840D /* Default-736h.png */,
+			);
+			path = LaunchImages;
+			sourceTree = "<group>";
+		};
+		1662306D1F8F57FC000D6A7E /* PaymentBreakupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1662306E1F8F5818000D6A7E /* PaymentBreakupViewController.swift */,
+				166230701F8F5964000D6A7E /* PaymentBreakupPresentSegue.swift */,
+				166230721F8F5976000D6A7E /* PaymentBreakupDismissSegue.swift */,
+			);
+			path = PaymentBreakupViewController;
+			sourceTree = "<group>";
+		};
+		167F20C71F29BB2100F652B8 /* ReservationConfirmationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				167F20C81F29BB2100F652B8 /* ReservationConfirmationViewController.swift */,
+			);
+			path = ReservationConfirmationViewController;
+			sourceTree = "<group>";
+		};
+		167F20CA1F2B129800F652B8 /* AddReservationServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				167F20CB1F2B129800F652B8 /* AddReservationServiceController.swift */,
+			);
+			path = AddReservationServiceController;
+			sourceTree = "<group>";
+		};
+		167F20CD1F2B12B300F652B8 /* AddReservationResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				167F20CE1F2B12B300F652B8 /* AddReservationResponseParser.swift */,
+			);
+			path = AddReservationResponseParser;
+			sourceTree = "<group>";
+		};
+		16B296911F30A49E002CE989 /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16B296921F30A4AC002CE989 /* PaymentViewController.swift */,
+			);
+			path = PaymentViewController;
+			sourceTree = "<group>";
+		};
+		16CA2F681F3D9C530058486D /* PreReservationResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				16CA2F691F3D9C690058486D /* PreReservationResponseParser.swift */,
+			);
+			path = PreReservationResponseParser;
+			sourceTree = "<group>";
+		};
+		4B0ACD5249213D4241E6598A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F90CE79BA250AC48ABA98AFA /* Pods-Advantage.debug.xcconfig */,
+				0A2707A3D5DD1C8AE52BC76E /* Pods-Advantage.release.xcconfig */,
+				3C20927C12F588A88D7551B9 /* Pods-EZ.debug.xcconfig */,
+				BC867B6EE694468477FD4519 /* Pods-EZ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D950ADF51F04EB340058F678 = {
+			isa = PBXGroup;
+			children = (
+				D950AE001F04EB340058F678 /* AEZRentACar */,
+				D950ADFF1F04EB340058F678 /* Products */,
+				4B0ACD5249213D4241E6598A /* Pods */,
+				FB52305C3EB5CDF6A182CB71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D950ADFF1F04EB340058F678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D950AE1F1F04EB4C0058F678 /* Advantage.app */,
+				D950AE2D1F04EB620058F678 /* EZ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D950AE001F04EB340058F678 /* AEZRentACar */ = {
+			isa = PBXGroup;
+			children = (
+				1651F2B71F0F626200C9840D /* LaunchImages */,
+				1651F2461F0F5F8700C9840D /* Models */,
+				1651F2501F0F5F8700C9840D /* Parsers */,
+				1651F2661F0F5F8700C9840D /* Controllers */,
+				1651F2851F0F5F8700C9840D /* Utilities */,
+				D950AE941F08E5190058F678 /* Managers */,
+				D950AE451F08E2E50058F678 /* Fonts */,
+				D950AE011F04EB340058F678 /* AppDelegate.swift */,
+				D950AE081F04EB340058F678 /* Assets.xcassets */,
+				D950AE051F04EB340058F678 /* Main.storyboard */,
+				D950AE0D1F04EB340058F678 /* Info.plist */,
+				166EBAF81F386C59005D2B53 /* termsAndCondition.txt */,
+				FA40C38220DCFE5B00A4623D /* NetworkManager.swift */,
+				FA40C37A20DA7B5E00A4623D /* SlideMenuViewController.swift */,
+				FA40C38020DCC9F400A4623D /* ForgotPasswordViewController.swift */,
+				FA40C37E20DB9E8700A4623D /* LoginViewController.swift */,
+				FA1B9FD020E2399C00AF2E58 /* ViewReservationsViewController.swift */,
+				FA1B9FD220E26F6400AF2E58 /* MyReservationViewController.swift */,
+			);
+			path = AEZRentACar;
+			sourceTree = "<group>";
+		};
+		D950AE451F08E2E50058F678 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D950AE461F08E3480058F678 /* Montserrat-Black.ttf */,
+				D950AE471F08E3480058F678 /* Montserrat-BlackItalic.ttf */,
+				D950AE481F08E3480058F678 /* Montserrat-Bold.ttf */,
+				D950AE491F08E3480058F678 /* Montserrat-BoldItalic.ttf */,
+				D950AE4A1F08E3480058F678 /* Montserrat-ExtraBold.ttf */,
+				D950AE4B1F08E3480058F678 /* Montserrat-ExtraBoldItalic.ttf */,
+				D950AE4C1F08E3480058F678 /* Montserrat-ExtraLight.ttf */,
+				D950AE4D1F08E3480058F678 /* Montserrat-ExtraLightItalic.ttf */,
+				D950AE4E1F08E3480058F678 /* Montserrat-Italic.ttf */,
+				D950AE4F1F08E3480058F678 /* Montserrat-Light.ttf */,
+				D950AE501F08E3480058F678 /* Montserrat-LightItalic.ttf */,
+				D950AE511F08E3480058F678 /* Montserrat-Medium.ttf */,
+				D950AE521F08E3480058F678 /* Montserrat-MediumItalic.ttf */,
+				D950AE531F08E3480058F678 /* Montserrat-Regular.ttf */,
+				D950AE541F08E3480058F678 /* Montserrat-SemiBold.ttf */,
+				D950AE551F08E3480058F678 /* Montserrat-SemiBoldItalic.ttf */,
+				D950AE561F08E3480058F678 /* Montserrat-Thin.ttf */,
+				D950AE571F08E3480058F678 /* Montserrat-ThinItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D950AE941F08E5190058F678 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D950AE951F08E5270058F678 /* DataManagers */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		D950AE951F08E5270058F678 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				D950AE961F08E53B0058F678 /* DataManager.swift */,
+			);
+			name = DataManagers;
+			sourceTree = "<group>";
+		};
+		FA1B9FD420E4BC9C00AF2E58 /* ViewReservation */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B9FD520E4BCCD00AF2E58 /* ViewReservationServiceController.swift */,
+			);
+			path = ViewReservation;
+			sourceTree = "<group>";
+		};
+		FA1B9FD720E4CA7B00AF2E58 /* ViewReservationParser */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B9FD820E4CBA600AF2E58 /* ViewReservationResponseParser.swift */,
+			);
+			path = ViewReservationParser;
+			sourceTree = "<group>";
+		};
+		FB52305C3EB5CDF6A182CB71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6005FE08EB962CCD779EAE59 /* Pods_Advantage.framework */,
+				228A690878F5958303BABCD8 /* Pods_EZ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D950AE131F04EB4C0058F678 /* Advantage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D950AE1C1F04EB4C0058F678 /* Build configuration list for PBXNativeTarget "Advantage" */;
+			buildPhases = (
+				9E90BF0339826A8B45A59CF8 /* [CP] Check Pods Manifest.lock */,
+				D950AE141F04EB4C0058F678 /* Sources */,
+				D950AE171F04EB4C0058F678 /* Frameworks */,
+				D950AE181F04EB4C0058F678 /* Resources */,
+				DFCB2DEEC6464542EF87E5DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Advantage;
+			productName = AEZRentACar;
+			productReference = D950AE1F1F04EB4C0058F678 /* Advantage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D950AE211F04EB620058F678 /* EZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D950AE2A1F04EB620058F678 /* Build configuration list for PBXNativeTarget "EZ" */;
+			buildPhases = (
+				256465503B73731C32B8892F /* [CP] Check Pods Manifest.lock */,
+				D950AE221F04EB620058F678 /* Sources */,
+				D950AE251F04EB620058F678 /* Frameworks */,
+				D950AE261F04EB620058F678 /* Resources */,
+				7FC2385276D66DF05CC0BAE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZ;
+			productName = AEZRentACar;
+			productReference = D950AE2D1F04EB620058F678 /* EZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D950ADF61F04EB340058F678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anjali Panjawani";
+				TargetAttributes = {
+					D950AE131F04EB4C0058F678 = {
+						DevelopmentTeam = KSQR8NJ7XC;
+						ProvisioningStyle = Manual;
+					};
+					D950AE211F04EB620058F678 = {
+						DevelopmentTeam = VB78Y67GX6;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D950ADF91F04EB340058F678 /* Build configuration list for PBXProject "AEZRentACar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D950ADF51F04EB340058F678;
+			productRefGroup = D950ADFF1F04EB340058F678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D950AE131F04EB4C0058F678 /* Advantage */,
+				D950AE211F04EB620058F678 /* EZ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D950AE181F04EB4C0058F678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651F2BB1F0F626200C9840D /* Default-568h.png in Resources */,
+				D950AE651F08E3480058F678 /* Montserrat-Regular.ttf in Resources */,
+				D950AE611F08E3480058F678 /* Montserrat-Light.ttf in Resources */,
+				D950AE5B1F08E3480058F678 /* Montserrat-BoldItalic.ttf in Resources */,
+				D950AE581F08E3480058F678 /* Montserrat-Black.ttf in Resources */,
+				1651F2BD1F0F626200C9840D /* Default-736h.png in Resources */,
+				D950AE591F08E3480058F678 /* Montserrat-BlackItalic.ttf in Resources */,
+				D950AE5F1F08E3480058F678 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				166EBAF91F386C59005D2B53 /* termsAndCondition.txt in Resources */,
+				D950AE1A1F04EB4C0058F678 /* Assets.xcassets in Resources */,
+				D950AE621F08E3480058F678 /* Montserrat-LightItalic.ttf in Resources */,
+				D950AE661F08E3480058F678 /* Montserrat-SemiBold.ttf in Resources */,
+				D950AE641F08E3480058F678 /* Montserrat-MediumItalic.ttf in Resources */,
+				D950AE5E1F08E3480058F678 /* Montserrat-ExtraLight.ttf in Resources */,
+				D950AE681F08E3480058F678 /* Montserrat-Thin.ttf in Resources */,
+				1651F2BC1F0F626200C9840D /* Default-667h.png in Resources */,
+				D950AE1B1F04EB4C0058F678 /* Main.storyboard in Resources */,
+				D950AE5D1F08E3480058F678 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				D950AE691F08E3480058F678 /* Montserrat-ThinItalic.ttf in Resources */,
+				D950AE5C1F08E3480058F678 /* Montserrat-ExtraBold.ttf in Resources */,
+				D950AE601F08E3480058F678 /* Montserrat-Italic.ttf in Resources */,
+				D950AE631F08E3480058F678 /* Montserrat-Medium.ttf in Resources */,
+				D950AE671F08E3480058F678 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				D950AE5A1F08E3480058F678 /* Montserrat-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D950AE261F04EB620058F678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D950AE281F04EB620058F678 /* Assets.xcassets in Resources */,
+				D950AE291F04EB620058F678 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256465503B73731C32B8892F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC2385276D66DF05CC0BAE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EZ/Pods-EZ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZ/Pods-EZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E90BF0339826A8B45A59CF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Advantage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCB2DEEC6464542EF87E5DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Advantage/Pods-Advantage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Advantage/Pods-Advantage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D950AE141F04EB4C0058F678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651F28D1F0F5F8700C9840D /* Login.swift in Sources */,
+				1651F2AE1F0F60E500C9840D /* GetUSStatesServiceController.swift in Sources */,
+				1651F2991F0F5F8700C9840D /* LoyaltyProfileServiceResponseParser.swift in Sources */,
+				1651F2A81F0F5F8700C9840D /* FindACarViewController.swift in Sources */,
+				FA40C37F20DB9E8700A4623D /* LoginViewController.swift in Sources */,
+				1620EBFC1F1671F20086FC6B /* DatePickerCustomSegue.swift in Sources */,
+				1635E5881F273E5D00C799AA /* WebViewDismissSegue.swift in Sources */,
+				1635E5911F273E8800C799AA /* RequestBillServiceController.swift in Sources */,
+				FA40C37B20DA7B5E00A4623D /* SlideMenuViewController.swift in Sources */,
+				1651F28A1F0F5F8700C9840D /* Country.swift in Sources */,
+				1651F2A51F0F5F8700C9840D /* ChooseACarTableViewCell.swift in Sources */,
+				1620EC001F17544C0086FC6B /* ReservationSummaryCell.swift in Sources */,
+				D950AE161F04EB4C0058F678 /* AppDelegate.swift in Sources */,
+				FA1B9FDB20E4CE4700AF2E58 /* ViewReservation.swift in Sources */,
+				1651F2B01F0F610800C9840D /* GetCountriesServiceController.swift in Sources */,
+				1651F2A41F0F5F8700C9840D /* UserServiceController.swift in Sources */,
+				FA40C37D20DB830500A4623D /* SlideMenu.swift in Sources */,
+				1635E5871F273E5D00C799AA /* WebViewController.swift in Sources */,
+				1651F2A11F0F5F8700C9840D /* LogoutServiceController.swift in Sources */,
+				1620EBFE1F1671F20086FC6B /* DatePickerViewController.swift in Sources */,
+				167F20CC1F2B129800F652B8 /* AddReservationServiceController.swift in Sources */,
+				1651F2AA1F0F5F8700C9840D /* AlertManager.swift in Sources */,
+				1620EBFD1F1671F20086FC6B /* DatePickerDismissSegue.swift in Sources */,
+				FA1B9FD120E2399C00AF2E58 /* ViewReservationsViewController.swift in Sources */,
+				1651F2951F0F5F8700C9840D /* GetRatesServiceResponseParser.swift in Sources */,
+				1651F2901F0F5F8700C9840D /* UserLoyaltyProfile.swift in Sources */,
+				1651F2941F0F5F8700C9840D /* GetPolicyServiceResponseParser.swift in Sources */,
+				1651F2A21F0F5F8700C9840D /* LoyaltyProfileServiceController.swift in Sources */,
+				1651F29C1F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceController.swift in Sources */,
+				1651F29E1F0F5F8700C9840D /* GetPolicyServiceController.swift in Sources */,
+				1651F28B1F0F5F8700C9840D /* Location.swift in Sources */,
+				FAB567A520D388DC00B1BB62 /* RequestBillServiceResponseParser.swift in Sources */,
+				166230731F8F5976000D6A7E /* PaymentBreakupDismissSegue.swift in Sources */,
+				1651F2911F0F5F8700C9840D /* USState.swift in Sources */,
+				1651F28C1F0F5F8700C9840D /* LocationDetails.swift in Sources */,
+				1651F2A61F0F5F8700C9840D /* ChooseACarViewController.swift in Sources */,
+				1651F2981F0F5F8700C9840D /* LogoutServiceResponseParser.swift in Sources */,
+				1651F2A01F0F5F8700C9840D /* LoginServiceController.swift in Sources */,
+				1651F2921F0F5F8700C9840D /* GetFormattedTermsAndConditionsServiceResponseParser.swift in Sources */,
+				1651F2961F0F5F8700C9840D /* GetUSStatesServiceResponseParser.swift in Sources */,
+				1651F2A31F0F5F8700C9840D /* SearchLocationServiceController.swift in Sources */,
+				FA40C38320DCFE5C00A4623D /* NetworkManager.swift in Sources */,
+				167F20C91F29BB2100F652B8 /* ReservationConfirmationViewController.swift in Sources */,
+				1635E5891F273E5D00C799AA /* WebViewPresentSegue.swift in Sources */,
+				1635E58B1F273E6600C799AA /* BillingDetails.swift in Sources */,
+				1651F29F1F0F5F8700C9840D /* GetRatesServiceController.swift in Sources */,
+				16CA2F6A1F3D9C690058486D /* PreReservationResponseParser.swift in Sources */,
+				1651F2A91F0F5F8700C9840D /* LocationSearchResultsViewController.swift in Sources */,
+				1651F2B31F0F614200C9840D /* GetCountriesServiceResponseParser.swift in Sources */,
+				1651F2A71F0F5F8700C9840D /* FindACarHeaderView.swift in Sources */,
+				FA1B9FD920E4CBA600AF2E58 /* ViewReservationResponseParser.swift in Sources */,
+				166230711F8F5964000D6A7E /* PaymentBreakupPresentSegue.swift in Sources */,
+				167AC3291F41749D0097C169 /* AEZDataAdditions.swift in Sources */,
+				1651F28F1F0F5F8700C9840D /* User.swift in Sources */,
+				1651F2AB1F0F5F8700C9840D /* UITextFieldAdditions.swift in Sources */,
+				1635E5801F273E1E00C799AA /* PaymentDetailsTableViewCell.swift in Sources */,
+				FA40C38120DCC9F400A4623D /* ForgotPasswordViewController.swift in Sources */,
+				1651F2B61F0F623700C9840D /* SplashViewController.swift in Sources */,
+				D950AE971F08E53B0058F678 /* DataManager.swift in Sources */,
+				16CA2F6C1F3D9CC90058486D /* PreReservation.swift in Sources */,
+				1651F29A1F0F5F8700C9840D /* SearchLocationServiceResponseParser.swift in Sources */,
+				1686C22E1F3C5BBC006B9D16 /* ServiceConstants.swift in Sources */,
+				167F20CF1F2B12B300F652B8 /* AddReservationResponseParser.swift in Sources */,
+				1662306F1F8F5818000D6A7E /* PaymentBreakupViewController.swift in Sources */,
+				1635E57E1F273E1E00C799AA /* EditProfileMyDetailsTableViewCell.swift in Sources */,
+				FA1B9FD620E4BCCD00AF2E58 /* ViewReservationServiceController.swift in Sources */,
+				1651F2AC1F0F5F8700C9840D /* Utilities.swift in Sources */,
+				FA4E13172109CFFE0078ED11 /* Constants.swift in Sources */,
+				1651F2971F0F5F8700C9840D /* LoginServiceResponseParser.swift in Sources */,
+				16AC0C111F2F159000B6AEF1 /* LogoutFunctionalityViewController.swift in Sources */,
+				16B296931F30A4AD002CE989 /* PaymentViewController.swift in Sources */,
+				1651F28E1F0F5F8700C9840D /* Reservation.swift in Sources */,
+				1635E5821F273E1E00C799AA /* ReserveCarViewController.swift in Sources */,
+				1651F29B1F0F5F8700C9840D /* UserServiceResponseParser.swift in Sources */,
+				1651F2891F0F5F8700C9840D /* AEZCar.swift in Sources */,
+				1635E57F1F273E1E00C799AA /* LoginTableViewCell.swift in Sources */,
+				FA1B9FD320E26F6400AF2E58 /* MyReservationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D950AE221F04EB620058F678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB567A620D388DC00B1BB62 /* RequestBillServiceResponseParser.swift in Sources */,
+				FABE28C320F75223000A30BB /* AEZCar.swift in Sources */,
+				FABE28C220F75207000A30BB /* BillingDetails.swift in Sources */,
+				D950AE241F04EB620058F678 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D950AE051F04EB340058F678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D950AE061F04EB340058F678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D950AE0E1F04EB340058F678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: santosh botre (BJ2MU3BWU8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: santosh botre (BJ2MU3BWU8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "298d43c1-f2f3-4437-ab85-117bd22c0d2c";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos10.3;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D950AE0F1F04EB340058F678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: santosh botre (BJ2MU3BWU8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: santosh botre (BJ2MU3BWU8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "298d43c1-f2f3-4437-ab85-117bd22c0d2c";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos10.3;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D950AE1D1F04EB4C0058F678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90CE79BA250AC48ABA98AFA /* Pods-Advantage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: r.vivek anandan (SVTB5B4ZK2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: r.vivek anandan (SVTB5B4ZK2)";
+				DEVELOPMENT_TEAM = KSQR8NJ7XC;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = AEZRentACar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quagilesolution.advantage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "22dc5f59-094e-497c-9457-21891c26ee59";
+				PROVISIONING_PROFILE_SPECIFIER = Development_New_PF;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D950AE1E1F04EB4C0058F678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2707A3D5DD1C8AE52BC76E /* Pods-Advantage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: r.vivek anandan (SVTB5B4ZK2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: r.vivek anandan (SVTB5B4ZK2)";
+				DEVELOPMENT_TEAM = KSQR8NJ7XC;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = AEZRentACar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quagilesolution.advantage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "22dc5f59-094e-497c-9457-21891c26ee59";
+				PROVISIONING_PROFILE_SPECIFIER = Development_New_PF;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D950AE2B1F04EB620058F678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C20927C12F588A88D7551B9 /* Pods-EZ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VB78Y67GX6;
+				INFOPLIST_FILE = AEZRentACar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.EZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f23d282d-3e1c-4827-80cf-4ac2eac13cd4";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D950AE2C1F04EB620058F678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC867B6EE694468477FD4519 /* Pods-EZ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VB78Y67GX6;
+				INFOPLIST_FILE = AEZRentACar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.EZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f23d282d-3e1c-4827-80cf-4ac2eac13cd4";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D950ADF91F04EB340058F678 /* Build configuration list for PBXProject "AEZRentACar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D950AE0E1F04EB340058F678 /* Debug */,
+				D950AE0F1F04EB340058F678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D950AE1C1F04EB4C0058F678 /* Build configuration list for PBXNativeTarget "Advantage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D950AE1D1F04EB4C0058F678 /* Debug */,
+				D950AE1E1F04EB4C0058F678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D950AE2A1F04EB620058F678 /* Build configuration list for PBXNativeTarget "EZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D950AE2B1F04EB620058F678 /* Debug */,
+				D950AE2C1F04EB620058F678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D950ADF61F04EB340058F678 /* Project object */;
+}
